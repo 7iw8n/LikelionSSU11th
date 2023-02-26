@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.mainvideo {
+    width: 100%;
+    max-width: 100;
+    height: auto;
+}
+body {
+    font-family: 'GangwonEduPowerExtraBoldA';
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to right top, #b9aefd, #23fdff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    padding-top: 20px;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: rgb(148, 139, 139);
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: aqua;
+}
+#intro {
+    background: linear-gradient(to right top, #b9aefd, #23fdff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#left {
+    font-size: 20px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+#list {
+    color: lightblue;
+    border-right: 6px solid;
+    border-image: linear-gradient(to right top, #b9aefd, #23fdff);
+    border-image-slice: 1;
+    margin-top: 60px;
+    margin-bottom: auto;
+    line-height: 50px;
+}
+#right {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+h2, h3 {
+    text-align: center;
+}
+#curri {
+    line-height: 50px;
+}
+@media(max-width: 950px) {
+    #left {
+        display: block;
+    }
+    #list {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        border-right: none;
+        border-bottom: 6px solid;
+        border-image: linear-gradient(to right top, #b9aefd, #23fdff);
+        border-image-slice: 1;
+        margin-top: 50px;
+        padding-bottom: 25px;
+    }
+    #right {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+    }
+}
