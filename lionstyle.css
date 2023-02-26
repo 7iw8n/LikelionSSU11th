@@ -40,13 +40,13 @@ a:active {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#left {
+.left {
     font-size: 20px;
     text-decoration: none;
     display: grid;
     grid-template-columns: 350px 1fr;
 }
-#list {
+.list {
     color: lightblue;
     border-right: 6px solid;
     border-image: linear-gradient(to right top, #b9aefd, #23fdff);
@@ -55,7 +55,7 @@ a:active {
     margin-bottom: auto;
     line-height: 50px;
 }
-#right {
+.right {
     padding-left: 80px;
     padding-top: 20px;
 }
@@ -66,10 +66,10 @@ h2, h3 {
     line-height: 50px;
 }
 @media(max-width: 950px) {
-    #left {
+    .left {
         display: block;
     }
-    #list {
+    .list {
         display: table;
         margin-left: auto;
         margin-right: auto;
@@ -80,7 +80,7 @@ h2, h3 {
         margin-top: 50px;
         padding-bottom: 25px;
     }
-    #right {
+    .right {
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 50px;
